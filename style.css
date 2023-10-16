@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+    border-color: rgb(5, 22, 77);
+    border-style: ridge;
+    border-width: 7px;
+  }
+  
