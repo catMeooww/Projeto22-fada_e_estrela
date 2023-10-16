@@ -1,6 +1,5 @@
 var starImg,bgImg;
 var star, starBody;
-//criar variável para sprite de fada e imgFada
 
 const Engine = Matter.Engine;
 const World = Matter.World;
@@ -9,9 +8,9 @@ const Body = Matter.Body;
 
 function preload()
 {
-    starImg = loadImage("images/star.png");
-    fairy_img = loadImage("images/fairyImage1.png");
-    fairy_speak = loadSound("sound/JoyMusic.mp3");
+    starImg = loadImage("star.png");
+    fairy_img = loadImage("fairyImage1.png");
+    fairy_speak = loadSound("JoyMusic.mp3");
 }
 
 function setup() {
